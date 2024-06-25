@@ -7,6 +7,9 @@ while True:
     if answer == number:
         print(f'正解です! 答えは{answer}')
         break
+    
+    elif answer > number:
+        print(f'不正解です。答えは、入力された値{number}よりも大きいです。')
 
     else:
-        print(f'不正解です。入力された値は{number}です。')
+        print(f'不正解です。答えは、入力された値{number}よりも小さいです。')
